@@ -1798,11 +1798,11 @@ footer{
   
   .whatWeDo .container .card .cardRight img {
     margin: 0 0 0 25px;
-    height: 500px;
+    height: 300px;
   }
   
   .whatWeDo .container .card .cardRight.sec img {
-    height: 400px;
+    height: 200px;
   }
   
   .whatWeDo.prg .container .card h3 {
