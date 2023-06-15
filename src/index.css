@@ -3601,4 +3601,14 @@ p.deco {
         width: 430px;
         }
   }
+
+  @media screen and (min-width: 330px) and (max-width: 370px) {
+    .fullContainer .upperContainer .ucSubCon .contacts p {
+        /* max-height: 130vh;
+        height: 125vh;
+        min-height: 115px; */
+        font-size: 13px !important;
+    }
+  }
+
   /* Responsiveness style ends */
