@@ -225,6 +225,11 @@ input[type=submit] {
     color: var(--color-title);
 }
 
+.fullContainer.navbar .upperContainer .ucSubCon .logoo img {
+    height: 70px;
+    margin-top: 10px;
+}
+
 .fullContainer.navbar .upperContainer .ucSubCon .logoo a {
     text-decoration: none;
     color: #000;

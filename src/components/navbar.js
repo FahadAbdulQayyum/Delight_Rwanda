@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import imgg from '../images/logoo.png'
 
 const navbar = () => {
     return (
@@ -9,7 +10,8 @@ const navbar = () => {
                 <div className="ucSubCon">
                     <div className="logoo">
                         <Link to={'/'}>
-                            <h2>Delight <span>Rwanda</span></h2>
+                            <img src={imgg}/>
+                            {/* <h2>Delight <span>Rwanda</span></h2> */}
                         </Link>
                     </div>
                     <div className="contacts">
