@@ -226,7 +226,7 @@ input[type=submit] {
 }
 
 .fullContainer.navbar .upperContainer .ucSubCon .logoo img {
-    height: 70px;
+    height: 60px;
     margin-top: 10px;
 }
 
@@ -3599,16 +3599,24 @@ p.deco {
     }
     .fullContainer.navbar .upperContainer .ucSubCon .contacts {
         width: 430px;
-        }
+    }
+    .fullContainer.navbar .upperContainer .ucSubCon .logoo img {
+            height: 50px;
+            margin-top: 10px;
+    }
   }
 
-  @media screen and (min-width: 330px) and (max-width: 370px) {
+  @media screen and (max-width: 370px) {
     .fullContainer .upperContainer .ucSubCon .contacts p {
         /* max-height: 130vh;
         height: 125vh;
         min-height: 115px; */
         font-size: 13px !important;
     }
+    .fullContainer.navbar .upperContainer .ucSubCon .logoo img {
+        height: 50px;
+        margin-top: 10px;
+}
   }
 
   /* Responsiveness style ends */
